@@ -1,0 +1,9 @@
+<ul>
+{% for song in site.songs %}
+  <li> 
+    <a href="{{ song.url }}">
+      {{ song.title }} 
+    </a>
+  </li>
+{% endfor %}
+</ul>
