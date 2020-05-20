@@ -1,1 +1,0 @@
-# heftone-jekyll
