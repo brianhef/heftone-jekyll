@@ -28,7 +28,7 @@ twitter_username: brianhef
 github_username:  brianhef
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
