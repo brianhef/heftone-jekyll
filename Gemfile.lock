@@ -65,9 +65,15 @@ GEM
     multi_json (1.14.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+<<<<<<< HEAD
     public_suffix (4.0.5)
     rack (1.6.13)
     rb-fsevent (0.10.4)
+=======
+    public_suffix (4.0.4)
+    rack (2.2.3)
+    rb-fsevent (0.10.3)
+>>>>>>> ffbb58c04ffe5b97301812ceb160e5604d6defef
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
@@ -83,7 +89,7 @@ GEM
     sprockets (2.12.5)
       hike (~> 1.2)
       multi_json (~> 1.0)
-      rack (~> 1.0)
+      rack (~> 2.1.4)
       tilt (~> 1.1, != 1.3.0)
     sprockets-helpers (1.3.0)
       sprockets (>= 2.2)
