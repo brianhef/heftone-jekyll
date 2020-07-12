@@ -3,3 +3,8 @@
 .jekyll-metadata
 vendor
 images/
+.bundle
+
+*.swp
+*.swo
+*~

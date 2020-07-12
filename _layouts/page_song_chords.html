@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<link rel="stylesheet" type="text/css" href="/assets/css/yuiReset.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/basic-page-layout.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/assets/css/ukeGeeks.music.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/assets/css/ukeGeeks.musicPrint.css" media="print" />
+
+
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+  {% include breadcrumbs.html %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
